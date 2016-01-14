@@ -1,0 +1,9 @@
+{
+  "name": "atemporaleNEXTbower",
+  "version": "1.0.0",
+  "description": "A simple frontend configuration for Laravel.",
+  "keywords": [ "laravel", "template", "elixir", "less", "bower" ],
+  "homepage": "http://atemporale.next.it",
+  "license": "MIT",
+  "ignore": [ ]
+}
