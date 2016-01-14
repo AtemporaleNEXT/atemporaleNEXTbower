@@ -1,0 +1,47 @@
+// out: null
+
+*{padding: 0; margin: 0;}
+.col, .sp{height: 100%; opacity: 0.2; float: left}
+
+@sp: 0.8%;
+@tuttisp: @sp * 11;
+@col-a: 100% - @tuttisp;
+@col-1: @col-a / 12;
+@col-2: @col-1*2 + @sp*1;
+@col-3: @col-1*3 + @sp*2;
+@col-4: @col-1*4 + @sp*3;
+@col-5: @col-1*5 + @sp*4;
+@col-6: @col-1*6 + @sp*5;
+@col-7: @col-1*7 + @sp*6;
+@col-8: @col-1*8 + @sp*7;
+@col-9: @col-1*9 + @sp*8;
+@col-10: @col-1*10 + @sp*9;
+@col-11: @col-1*11 + @sp*10;
+@col-12:100%;
+
+@offset-1col: @col-1 + @sp;
+@offset-2col: @col-2 + @sp;
+@offset-3col: @col-3 + @sp;
+@offset-4col: @col-4 + @sp;
+@offset-5col: @col-5 + @sp;
+@offset-6col: @col-6 + @sp;
+@offset-7col: @col-7 + @sp;
+@offset-8col: @col-8 + @sp;
+@offset-9col: @col-9 + @sp;
+@offset-10col: @col-10 + @sp;
+@offset-11col: @col-11 + @sp;
+
+
+
+// livello per visualizzare il layout
+#griglia{
+  position: fixed;
+  top:0;
+  z-index: -999999;
+  margin-left: 10%;
+  width:80%;
+  height: 100%;
+
+  .col{width: @col-1; background-color: #ccc;}.sp{width: @sp;}
+}
+
