@@ -1,0 +1,32 @@
+// out: null
+
+/*testo*/
+.testo_centro{text-align:center;}
+.testo_sinistra{text-align:left;}
+.testo_destra{text-align:right;}
+.testo_colonna{text-align:justify;}
+
+.maiuscoletto{font-variant:small-caps;}
+.maiuscolo{text-transform: uppercase;}
+
+.bold{font-weight:bold;}
+.normal{font-weight:normal;}
+.italic{font-style:italic;}
+
+.sottolineato, a.sottolineato{ text-decoration:underline !important;}
+a.sottolineato:hover{text-decoration:none;}
+
+/*tipografia*/
+@font-size-base:          14px;
+@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+
+@line-height-base:        1.428571429; // 20/14
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+
+/*colori e sfondi*/
+.f_bianco, a.f_bianco{color:#fff;}
+.f_nero, a.f_nero{color:#000;}
+
+@brand1: #9A9C17 !important;
+@brand2: #300e0f !important;

@@ -1,0 +1,31 @@
+// out: null
+
+/*allineamento box*/
+.left{float:left;}
+.right{float:right;}
+.clear{clear: both;}
+.centro_x(@width){.left50; margin-left:-@width/2;}
+.centro_y(@height){.top50; margin-top:-@height/2;}
+
+/*visualizzazione*/
+.block{display:block;}
+.inline{ display:inline;}
+.inline_block{ display:inline-block;}
+
+/*posizionamneto*/
+.absolute{position:absolute;}
+.fixed{position:fixed;}
+.relative{position:relative;}
+
+/*sovrapposizione*/
+.liv1{z-index:1;}.liv2{z-index:9;}.liv3{z-index:11;}
+.liv4{z-index:99;}.liv5{z-index:111;}.liv6{z-index:999;}
+.liv7{z-index:1111;}.liv8{z-index:9999;}.liv9{z-index:11111;}
+.liv10{z-index:99999;}.liv11{z-index:111111;}.liv12{z-index:999999;}
+
+// Mixins
+.size(@width; @height) {width: @width; height: @height;}
+.square(@size) {.size(@size; @size);}
+
+
+
