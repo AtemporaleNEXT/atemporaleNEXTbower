@@ -1,6 +1,6 @@
 {
   "name": "atemporaleNEXTbower",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple frontend configuration for Laravel.",
   "keywords": [
     "laravel",
@@ -12,6 +12,6 @@
   "homepage": "http://atemporale.next.it",
   "license": "MIT",
   "ignore": [],
-  "_release": "1.0.0",
+  "_release": "1.0.2",
   "_source": "git@github.com:AtemporaleNEXT/atemporaleNEXTbower.git"
 }
