@@ -15,7 +15,14 @@
   "authors": [
     "alessandrotraversi <alessandro.traversi@hotmail.it>"
   ],
-  "main": "",
+  "main": [
+    "./less/grid_system12.less",
+    "./less/material_design_color_palette.less",
+    "./less/mixin_css3.less",
+    "./less/mixin_posizione.less",
+    "./less/mixin_testo.less",
+    "./less/start.less"
+  ],
   "moduleType": [],
   "dependencies": {
     "jquery-ui": "~1.11.4",
